@@ -1,16 +1,13 @@
 using UnityEngine;
 
+//This class is responsible for changing the timeScale of the simulation according to the value that the slider is currently on
+
 public class TimeController : MonoBehaviour
 {
     [SerializeField] UIController _uiController;
     private void Start()
     {
         _uiController.OnTimeScaleChangedEventHandler += OnTimeScaleChanged;
-    }
-
-    private void Update()
-    {
-
     }
 
     //maximum value in editor is capped at 100

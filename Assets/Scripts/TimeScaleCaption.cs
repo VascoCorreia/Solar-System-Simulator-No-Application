@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This class is responsible for correctly setting the text above the TimeScale Slider, in a way that is comprehensive for the user.
 public class TimeScaleCaption : MonoBehaviour
 {
 
@@ -13,6 +14,7 @@ public class TimeScaleCaption : MonoBehaviour
         _sliderComponent = GetComponent<Slider>();
     }
 
+    //If timescale is bigger than 1 day in seconds it changed to days and hours until its maximum that is 1 year/second
     private void Update()
     {
         if(_sliderComponent.value == _sliderComponent.maxValue)

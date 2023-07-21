@@ -2,19 +2,17 @@ using UnityEngine;
 
 public class CelestialBody : MonoBehaviour
 {
+    [SerializeField] GravitySimulation gravitySimulation;
     [field: SerializeField] public int id { get; set; }
     [field: SerializeField] public double mass { get; set; }
+    [field: SerializeField] public float _speedNotScaled { get; private set; }
+    [field: SerializeField] public float tilt { get; private set; }
+    [field: SerializeField] public float rotationTime { get; private set; }
+    [field: SerializeField] public float diameter { get; private set; }
 
     public Vector3 initialVelocity;
-    public float _speedNotScaled;
 
-    [SerializeField] GravitySimulation gravitySimulation;
-
-    Vector3d currentVelocityDouble;
-
-    Vector3d positionDouble;
-
-    public float tilt, diameter = 1, rotationTime;
+    Vector3d currentVelocityDouble, positionDouble;
 
     private void Awake()
     {
@@ -33,6 +31,7 @@ public class CelestialBody : MonoBehaviour
         Rotation();
     }
 
+    //Computing Newtons gravitation law
     public void NewtonianGravitation(CelestialBody[] bodyToPull)
     {
         foreach (CelestialBody body in bodyToPull)
@@ -50,12 +49,14 @@ public class CelestialBody : MonoBehaviour
         }
     }
 
-        public void applyGravity()
+    //Moving celestial bodies using gravity
+    public void applyGravity()
     {
         positionDouble += currentVelocityDouble * (Time.fixedDeltaTime * UnitScaling.fixedGameTime);
         transform.localPosition = new Vector3((float)positionDouble.x, (float)positionDouble.y, (float)positionDouble.z);
     }
 
+    //planets rotation regarding their own rotation axis
     void Rotation()
     {
         //360 degrees divided by total rotation time = degrees rotated per second

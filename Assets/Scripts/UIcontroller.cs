@@ -6,6 +6,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+//This class is responsible for handling the planet dropdown and its behaviour.
+//It also handles the planet Information GUI
 public class UIController : MonoBehaviour
 {
     CelestialBodyManager _bodiesManager;

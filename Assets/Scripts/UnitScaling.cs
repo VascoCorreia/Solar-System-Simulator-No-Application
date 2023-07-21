@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+//Class that stores the scaling factors
 public static class UnitScaling
 {
     //1 = 100000km

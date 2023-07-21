@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
+
+//Library used for math methods using doubles. This is needed for precision. If we do not use doubles we will get precision errors
 
 namespace UnityEngine
 {

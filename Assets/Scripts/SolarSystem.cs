@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+//this class just takes care of moving the Solar System parent gameobject
 
 public class SolarSystem : MonoBehaviour
 {

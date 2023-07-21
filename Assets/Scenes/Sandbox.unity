@@ -316,14 +316,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 9
   <mass>k__BackingField: 12.43
+  <_speedNotScaled>k__BackingField: 19440
+  <tilt>k__BackingField: 28.32
+  <rotationTime>k__BackingField: 57780
+  <diameter>k__BackingField: 49530000
   initialVelocity: {x: 0, y: 0, z: 0.00000007219251}
-  _speedNotScaled: 19440
-  gravitySimulation: {fileID: 0}
-  tilt: 28.32
-  diameter: 49530000
-  rotationTime: 57780
 --- !u!96 &87723520
 TrailRenderer:
   serializedVersion: 3
@@ -1007,14 +1007,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 8
   <mass>k__BackingField: 8.681
+  <_speedNotScaled>k__BackingField: 24480
+  <tilt>k__BackingField: 82.23
+  <rotationTime>k__BackingField: 62028
+  <diameter>k__BackingField: 51120000
   initialVelocity: {x: 0, y: 0, z: 0.00000009090909}
-  _speedNotScaled: 24480
-  gravitySimulation: {fileID: 0}
-  tilt: 82.23
-  diameter: 51120000
-  rotationTime: 62028
 --- !u!96 &273965793
 TrailRenderer:
   serializedVersion: 3
@@ -2274,14 +2274,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 5
   <mass>k__BackingField: 0.064185
+  <_speedNotScaled>k__BackingField: 86760
+  <tilt>k__BackingField: 25.19
+  <rotationTime>k__BackingField: 88632
+  <diameter>k__BackingField: 6792000
   initialVelocity: {x: 0, y: 0, z: 0.0000003221925}
-  _speedNotScaled: 86760
-  gravitySimulation: {fileID: 0}
-  tilt: 25.19
-  diameter: 6792000
-  rotationTime: 88632
 --- !u!96 &533408775
 TrailRenderer:
   serializedVersion: 3
@@ -2441,14 +2441,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 4
   <mass>k__BackingField: 0.59736
+  <_speedNotScaled>k__BackingField: 107280
+  <tilt>k__BackingField: 23.44
+  <rotationTime>k__BackingField: 86148
+  <diameter>k__BackingField: 12760000
   initialVelocity: {x: 0, y: 0, z: 0.0000003983957}
-  _speedNotScaled: 107280
-  gravitySimulation: {fileID: 0}
-  tilt: 23.44
-  diameter: 12760000
-  rotationTime: 86148
 --- !u!96 &568207938
 TrailRenderer:
   serializedVersion: 3
@@ -2891,14 +2891,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 7
   <mass>k__BackingField: 56.846
+  <_speedNotScaled>k__BackingField: 34920
+  <tilt>k__BackingField: 26.73
+  <rotationTime>k__BackingField: 36828
+  <diameter>k__BackingField: 120500000
   initialVelocity: {x: 0, y: 0, z: 0.0000001296791}
-  _speedNotScaled: 34920
-  gravitySimulation: {fileID: 0}
-  tilt: 26.73
-  diameter: 120500000
-  rotationTime: 36828
 --- !u!96 &629207971
 TrailRenderer:
   serializedVersion: 3
@@ -3058,14 +3058,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 2
   <mass>k__BackingField: 0.033022
+  <_speedNotScaled>k__BackingField: 172332
+  <tilt>k__BackingField: 0.03
+  <rotationTime>k__BackingField: 5065500
+  <diameter>k__BackingField: 4880000
   initialVelocity: {x: 0, y: 0, z: 0.0000006399733}
-  _speedNotScaled: 172332
-  gravitySimulation: {fileID: 0}
-  tilt: 0.03
-  diameter: 4880000
-  rotationTime: 5065500
 --- !u!96 &658443503
 TrailRenderer:
   serializedVersion: 3
@@ -3440,14 +3440,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 1
   <mass>k__BackingField: 198910
+  <_speedNotScaled>k__BackingField: 1332000
+  <tilt>k__BackingField: 7.25
+  <rotationTime>k__BackingField: 2419000
+  <diameter>k__BackingField: 1.393e+9
   initialVelocity: {x: 0, y: 0, z: 0}
-  _speedNotScaled: 1332000
-  gravitySimulation: {fileID: 0}
-  tilt: 7.25
-  diameter: 1.393e+9
-  rotationTime: 2419000
 --- !u!96 &808285088
 TrailRenderer:
   serializedVersion: 3
@@ -3911,14 +3911,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 6
   <mass>k__BackingField: 189.86
+  <_speedNotScaled>k__BackingField: 47160
+  <tilt>k__BackingField: 3.13
+  <rotationTime>k__BackingField: 35712
+  <diameter>k__BackingField: 143000000
   initialVelocity: {x: 0, y: 0, z: 0.0000001751337}
-  _speedNotScaled: 47160
-  gravitySimulation: {fileID: 0}
-  tilt: 3.13
-  diameter: 143000000
-  rotationTime: 35712
 --- !u!96 &965749338
 TrailRenderer:
   serializedVersion: 3
@@ -4078,14 +4078,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d765fcba156b0459a2d2ef5d7aa01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gravitySimulation: {fileID: 0}
   <id>k__BackingField: 3
   <mass>k__BackingField: 0.48685
+  <_speedNotScaled>k__BackingField: 126000
+  <tilt>k__BackingField: 2.64
+  <rotationTime>k__BackingField: 21021000
+  <diameter>k__BackingField: 12100000
   initialVelocity: {x: 0, y: 0, z: 0.0000004679144}
-  _speedNotScaled: 126000
-  gravitySimulation: {fileID: 0}
-  tilt: 2.64
-  diameter: 12100000
-  rotationTime: 21021000
 --- !u!96 &1002179705
 TrailRenderer:
   serializedVersion: 3

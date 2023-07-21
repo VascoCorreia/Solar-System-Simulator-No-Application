@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] Vector3 _cameraSolarSystemDefaultPosition;
     [SerializeField] GameObject solarSystem;
 
-    float _horizontalRotation, _verticalRotation, _horizontalRotationSpeed = 700, _verticalRotationSpeed = 700;
+    float _horizontalRotation, _verticalRotation, _horizontalRotationSpeed = 250f, _verticalRotationSpeed = 250f;
     public bool isLocked { get; set; }
 
     Vector3 destination;
@@ -39,12 +39,9 @@ public class CameraController : MonoBehaviour
         updateCameraRotation();
         enableOrDisableTrailRenderer(isLocked, _planetList);
     }
-    private void FixedUpdate()
-    {
-
-    }
 
     //we need to subscribe to the event
+    //Parent the camera to the correct planet when clicked on UI dropdown
     void OnPlanetClicked(object sender, UIController.OnPlanetClickedEventArgs planetDropdownMenuData)
     {
         switch (planetDropdownMenuData.planetIndex)
@@ -113,6 +110,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    //camera rotation when clicking right mouse button
     void CameraClickAndRotate()
     {
         if (Input.GetMouseButton(1))
@@ -139,7 +137,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
-
+    //camera movement with mouse scroll wheel (more precise)
     void CameraMoveWithScrollWheel()
     {
         int _cameraMovementSpeed = 1500;
@@ -155,9 +153,10 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    //camera movement with WASD
     void cameraMovementWithKeys()
     {
-        float speed = 60f;
+        float speed = 20f;
         Vector3 keyInput = GetBaseInput();
 
         if (keyInput.sqrMagnitude > 0)
@@ -168,6 +167,7 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    //When planet is clicked in the UI dropdown teleport camera to the correct planet
     void updateCameraPositionWhenPlanetClicked()
     {
         if (isLocked)
@@ -209,6 +209,7 @@ public class CameraController : MonoBehaviour
         transform.position = _cameraSolarSystemDefaultPosition;
     }
 
+    //if camera is locked deactivates trail renderers so that it does not obstruct the users view
     void enableOrDisableTrailRenderer(bool isLocked, GameObject[] objects)
     {
         foreach (GameObject obj in objects)
